@@ -20,8 +20,7 @@
         
  
         <source-file src="src/android/com/app47/pgplugin/App47PGPlugin.java" target-dir="src/com/app47/pgplugin" />  
-        <lib-file src="src/android/com/app47/libs/AndroidAgent-2.0.0.jar" /> 
-        <lib-file src="src/android/com/app47/libs/android-support-v4.jar" />
+        <lib-file src="src/android/com/app47/libs/AndroidAgent-2.1.0.jar" /> 
         
         <config-file target="AndroidManifest.xml" parent="application">
         	<service android:enabled="true" android:name="com.app47.embeddedagent.AgentConfigService" />
